@@ -5,8 +5,11 @@ import java.util.ArrayList;
 import cartas.Carta;
 import cartas.CartaEspecialSemCor;
 
-
-
+/**
+ * 
+ * @author Luciano
+ *
+ */
 public class Roda {
 	Baralho compra;
 	Baralho descarte = new Baralho(Baralho.NORMAL);
@@ -32,7 +35,7 @@ public class Roda {
 		this.posicaoAtual = 0;
 		for (int i = 0; i < jogadores.size(); i++) {
 			for (int j = 0; j < 7; j++) {
-				// jogadores.get(i).comprarCarta(compra.comprarCarta());
+				//jogadores.get(i).comprarCarta(entregarCarta());
 			}
 		}
 		do {
@@ -116,8 +119,9 @@ public class Roda {
 
 	public void comprar(int qtd, Jogador jogador) {
 		for (int i = 0; i < qtd; i++) {
-			// jogador.comprarCarta(compra.comprarCarta());
+			//jogador.comprarCarta(entregarCarta());
 		}
 	}
 
 }
+
