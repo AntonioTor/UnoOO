@@ -5,11 +5,8 @@ import java.util.ArrayList;
 import cartas.Carta;
 import cartas.CartaEspecialSemCor;
 
-/**
- * 
- * @author Luciano
- *
- */
+
+
 public class Roda {
 	Baralho compra;
 	Baralho descarte = new Baralho(Baralho.NORMAL);
